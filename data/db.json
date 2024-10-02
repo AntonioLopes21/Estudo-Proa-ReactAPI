@@ -1,0 +1,17 @@
+{
+  "vehicle": [
+    {
+      "id": "157",
+      "marca": "Ford",
+      "modelo": "Mustang",
+      "preco": 350,
+      "ano": 2020
+    },
+    {
+      "marca": "palio",
+      "modelo": "montana",
+      "preco": 30500,
+      "id": "9092"
+    }
+  ]
+}
