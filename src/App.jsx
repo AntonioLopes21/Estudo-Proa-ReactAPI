@@ -31,6 +31,7 @@ function App() {
   //função para adicionar ou editar produtos
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log('Dados salvos/atualizados com sucesso')
   
     const product = { marca, modelo, preco: parseFloat(preco) };
     let res;

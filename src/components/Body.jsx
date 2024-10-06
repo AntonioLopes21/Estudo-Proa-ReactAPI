@@ -19,7 +19,7 @@ function Body({
                                 </div>
                                 <div className="product-actions">
                                     <button onClick={() => handleEdit(product)}>Editar</button>
-                                    <button onClick={() => handleDelete(product)}>Deletar</button>
+                                    <button onClick={() => handleDelete(product.id)}>Deletar</button>
                                 </div>
                             </li>
                         ))}
@@ -62,7 +62,9 @@ function Body({
                                  minLength='0.01'
                                 />
                             </label>
-                            <input type="submit" value={editMode ? "Atualizar" : "Criar"} />
+                            <div className="btn-form">
+                                <input className ='' type="submit" value={editMode ? "Atualizar" : "Criar"} />
+                            </div>
                         </form>
                 </div>
 
